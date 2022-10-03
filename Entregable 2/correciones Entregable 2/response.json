@@ -1,0 +1,46 @@
+
+
+
+http://localhost:8080/api/getAccountsGroupByType
+
+
+
+{
+    "PLATINUM": [
+        {
+            "country": "France",
+            "accountActive": false,
+            "accountName": "Dummy Account 8",
+            "accountType": "PLATINUM",
+            "lastUsage": "2022-10-03T00:22:51.350900",
+            "creationDate": "2022-08-03T00:22:51.349898200",
+            "accountNumber": -4167684802144741328,
+            "accountBalance": 3320.347335731401,
+            "user": "user1@wizeline.com"
+        },
+        {
+            "country": "United States",
+            "accountActive": false,
+            "accountName": "Dummy Account 4",
+            "accountType": "PLATINUM",
+            "lastUsage": "2022-10-03T00:22:51.350900",
+            "creationDate": "2018-10-03T00:22:51.349898200",
+            "accountNumber": -1078978690976732447,
+            "accountBalance": 3035.195499008515,
+            "user": "user2@wizeline.com"
+        }
+    ],
+    "AHORRO": [
+        {
+            "country": "Mexico",
+            "accountActive": true,
+            "accountName": "Dummy Account 7",
+            "accountType": "AHORRO",
+            "lastUsage": "2022-10-03T00:22:51.350900",
+            "creationDate": "2022-09-26T00:22:51.349898200",
+            "accountNumber": 89158047201658580,
+            "accountBalance": 8473.632187865005,
+            "user": "user3@wizeline.com"
+        }
+    ]
+}
