@@ -16,6 +16,9 @@
 	<description>Demo project maven for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		
+		<sonar.organization>ale277</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
 		<dependency>
